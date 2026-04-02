@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(find /Users/kingz/IdeaProjects/ticketing -type d -not -path */target* -not -path */.idea* -not -path */.git* -not -path */.*/*)",
+      "Bash(rm /Users/kingz/IdeaProjects/ticketing/src/main/webapp/WEB-INF/views/test.jsp)",
+      "Bash(mkdir -p /Users/kingz/IdeaProjects/ticketing/src/main/webapp/WEB-INF/views/cm)",
+      "Bash(mkdir -p /Users/kingz/IdeaProjects/ticketing/src/main/java/com/example/ticketing/common/dto)",
+      "Bash(./mvnw clean:*)",
+      "Bash(xargs grep:*)"
+    ]
+  }
+}

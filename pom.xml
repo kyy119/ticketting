@@ -35,13 +35,6 @@
     </properties>
 
     <dependencies>
-        <!-- aop -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-        <!-- aop -->
-        <!-- 자동반영 -->
         <dependency>
             <groupId>com.github.gavlyukovskiy</groupId>
             <artifactId>p6spy-spring-boot-starter</artifactId>
@@ -53,7 +46,6 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
-        <!-- 자동반영 -->
         <!-- jsp설정 -->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
@@ -69,7 +61,6 @@
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
         </dependency>
-        <!-- jsp설정 -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
